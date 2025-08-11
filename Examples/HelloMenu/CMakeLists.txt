@@ -65,14 +65,33 @@ set (AC_ADDON_NAME "${CMAKE_CURRENT_FOLDER_NAME}" CACHE STRING "Add-On name.")
 set (AC_ADDON_LANGUAGE "INT" CACHE STRING "Add-On language code.")
 
 message (STATUS "APIDevKit directory: ${AC_API_DEVKIT_DIR}")
-set (ACAPINC_FILE_LOCATION ${AC_API_DEVKIT_DIR}/Support/Inc/ACAPinc.h)
-if (EXISTS ${ACAPINC_FILE_LOCATION})
-	file (READ ${ACAPINC_FILE_LOCATION} ACAPIncContent)
-	string (REGEX MATCHALL "#define[ \t]+ServerMainVers_([0-9][0-9])" VersionList ${ACAPIncContent})
-	set (ARCHICAD_VERSION ${CMAKE_MATCH_1})
-	message (STATUS "Archicad Version: ${ARCHICAD_VERSION}")
+
+#
+# AC_API_DEVKIT_DIR may point either to the root of the DevKit or directly to
+# its "Support" subfolder.  The original examples expected the former which
+# caused configuration failures when users specified the latter.  Detect the
+# situation and normalize the path so the rest of the build system always works
+# with the DevKit root directory.
+#
+set (_ACAPINC_LOCATION "${AC_API_DEVKIT_DIR}/Support/Inc/ACAPinc.h")
+if (NOT EXISTS "${_ACAPINC_LOCATION}")
+       set (_ACAPINC_LOCATION "${AC_API_DEVKIT_DIR}/Inc/ACAPinc.h")
+       if (EXISTS "${_ACAPINC_LOCATION}")
+               get_filename_component (AC_API_DEVKIT_DIR "${AC_API_DEVKIT_DIR}/.." ABSOLUTE)
+               set (AC_API_DEVKIT_DIR "${AC_API_DEVKIT_DIR}" CACHE PATH "API DevKit directory." FORCE)
+               message (STATUS "AC_API_DEVKIT_DIR adjusted to: ${AC_API_DEVKIT_DIR}")
+               set (_ACAPINC_LOCATION "${AC_API_DEVKIT_DIR}/Support/Inc/ACAPinc.h")
+       endif ()
+endif ()
+
+set (ACAPINC_FILE_LOCATION "${_ACAPINC_LOCATION}")
+if (EXISTS "${ACAPINC_FILE_LOCATION}")
+       file (READ "${ACAPINC_FILE_LOCATION}" ACAPIncContent)
+       string (REGEX MATCHALL "#define[ \t]+ServerMainVers_([0-9][0-9])" VersionList ${ACAPIncContent})
+       set (ARCHICAD_VERSION ${CMAKE_MATCH_1})
+       message (STATUS "Archicad Version: ${ARCHICAD_VERSION}")
 else ()
-	message (FATAL_ERROR "Failed to detect Archicad version, please check the value of the AC_API_DEVKIT_DIR variable.")
+       message (FATAL_ERROR "Failed to detect Archicad version, please check the value of the AC_API_DEVKIT_DIR variable.")
 endif ()
 
 if (WIN32)
