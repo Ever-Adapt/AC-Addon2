@@ -1,0 +1,4 @@
+#include "HelloMenu.grc.rc2"
+#include "HelloMenuFix.grc.rc2"
+
+1   ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

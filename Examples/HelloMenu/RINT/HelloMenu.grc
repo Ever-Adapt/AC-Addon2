@@ -1,0 +1,10 @@
+'STR#' 32000 "Add-On Name and Description" {
+/* [  1] */ "Hello Menu"
+/* [  2] */ "Example Add-On with a menu item"
+}
+
+'STR#' 32500 "Menu Description" {
+/* [   ] */ "Add-Ons"
+/* [   ] */ "Hello Menu"
+/* [  1] */ "Say Hello"
+}
