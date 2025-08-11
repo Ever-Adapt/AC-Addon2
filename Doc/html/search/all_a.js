@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['keepselectionhighlight_0',['keepSelectionHighlight',['../struct_a_p_i___save_pars___picture.html#a90bcc2296b5a5a81452c9e00cecc405c',1,'API_SavePars_Picture']]],
+  ['keepzoomedsection_1',['keepZoomedSection',['../struct_a_p_i___imaging_and_calc_prefs.html#aa641785fce37a3a9164dbe08cfdf6fe8',1,'API_ImagingAndCalcPrefs']]],
+  ['key_2',['key',['../union_a_p_i___list_data.html#ad2db989b8d282dccea6c8a154c3b953d',1,'API_ListData']]],
+  ['keycode_3',['keycode',['../struct_a_p_i___obsolete___component_type.html#abf9ae141e07138671dcf9a0e2ad2a596',1,'API_Obsolete_ComponentType::keycode'],['../struct_a_p_i___descriptor_type.html#a2067522c1213e558bba3c8117ba7f871',1,'API_DescriptorType::keycode']]],
+  ['keylibind_4',['keyLibInd',['../struct_a_p_i___list_data_set_type.html#a28df51650d4f085d59e98190fdb2a81f',1,'API_ListDataSetType']]],
+  ['keyvariant_5',['keyVariant',['../struct_a_p_i___single_enumeration_variant.html#ab359e763127f38c88de2b19e0b924507',1,'API_SingleEnumerationVariant']]],
+  ['keywords_6',['keywords',['../struct_a_p_i___project_note_info.html#a900c11d4c2573ef682c46436a5f42dc3',1,'API_ProjectNoteInfo']]],
+  ['kind_7',['kind',['../struct_a_c_a_p_i_1_1_error.html#a55e5c70ff5aa890ba07c6386cc17b6e2',1,'ACAPI::Error']]],
+  ['kxtype_8',['kxType',['../struct_a_p_i___analytical_link___translation.html#a9a621d57fbe00774532c9835f2816750',1,'API_AnalyticalLink_Translation']]],
+  ['kxvalue_9',['kxValue',['../struct_a_p_i___analytical_link___translation.html#a2ad5ab639ee639539465f8018dac5c9f',1,'API_AnalyticalLink_Translation']]],
+  ['kxxtype_10',['kxxType',['../struct_a_p_i___analytical_link___rotation.html#a9703e8314e1f14c75ea96c744cb7dd10',1,'API_AnalyticalLink_Rotation']]],
+  ['kxxvalue_11',['kxxValue',['../struct_a_p_i___analytical_link___rotation.html#a9ac8743c5ef8932a1983d56c3786f8d9',1,'API_AnalyticalLink_Rotation']]],
+  ['kytype_12',['kyType',['../struct_a_p_i___analytical_link___translation.html#ae19091464c454c002b59a3ec31215f84',1,'API_AnalyticalLink_Translation']]],
+  ['kyvalue_13',['kyValue',['../struct_a_p_i___analytical_link___translation.html#ac89ae665fef7b4769561a0cfe946a290',1,'API_AnalyticalLink_Translation']]],
+  ['kyytype_14',['kyyType',['../struct_a_p_i___analytical_link___rotation.html#af8d7afdf618513a620461710d716ee34',1,'API_AnalyticalLink_Rotation']]],
+  ['kyyvalue_15',['kyyValue',['../struct_a_p_i___analytical_link___rotation.html#ad283748c1fbeb6cf8a2f451d363ea97a',1,'API_AnalyticalLink_Rotation']]],
+  ['kztype_16',['kzType',['../struct_a_p_i___analytical_link___translation.html#a3ba3c43f8a27035ee2bb1c17aabeabc9',1,'API_AnalyticalLink_Translation']]],
+  ['kzvalue_17',['kzValue',['../struct_a_p_i___analytical_link___translation.html#a17ad0df1de27dc6817e173c04d7a04ba',1,'API_AnalyticalLink_Translation']]],
+  ['kzztype_18',['kzzType',['../struct_a_p_i___analytical_link___rotation.html#a08f7b405edb8cc026944b56cb8950583',1,'API_AnalyticalLink_Rotation']]],
+  ['kzzvalue_19',['kzzValue',['../struct_a_p_i___analytical_link___rotation.html#a0fe0f7999e0d80202cf70e4dc4b3a58c',1,'API_AnalyticalLink_Rotation']]]
+];

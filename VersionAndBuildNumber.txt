@@ -1,0 +1,2 @@
+!define API_MAINVERSION "27" 
+!define AC_BUILD_NUMBER "6003" 

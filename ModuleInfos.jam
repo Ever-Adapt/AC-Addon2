@@ -1,0 +1,3 @@
+gen.gsmoduleinfo_beginmodule APIDevKit ; 
+gen.gsmoduleinfo_addsetpropery APIDevKit : usedmodules : "Standard" : general ; 
+gen.gsmoduleinfo_endmodule APIDevKit ; 

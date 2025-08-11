@@ -1,0 +1,36 @@
+var group___library_management =
+[
+    [ "API_LibraryInfo", "struct_a_p_i___library_info.html", [
+      [ "available", "struct_a_p_i___library_info.html#ab2bfa27dbd4edf52873afa1e680ec5e1", null ],
+      [ "filler", "struct_a_p_i___library_info.html#aa6d51d076cbaf514faa53cb549ab0700", null ],
+      [ "libraryType", "struct_a_p_i___library_info.html#a5445a3b9d070a0b03191d54d5570e552", null ],
+      [ "location", "struct_a_p_i___library_info.html#aeae7df459d12520fd79c9bfd693827c0", null ],
+      [ "name", "struct_a_p_i___library_info.html#ac9f99f8562e5868958109f0823389929", null ],
+      [ "readOnly", "struct_a_p_i___library_info.html#aaf53f5f41dde83392bf5ccdc273f6946", null ],
+      [ "twServerUrl", "struct_a_p_i___library_info.html#a4245ca51025a56f3142418a15e96987e", null ],
+      [ "urlWebLibrary", "struct_a_p_i___library_info.html#aeab5e8dd89232473da3204c963b5f71e", null ]
+    ] ],
+    [ "API_LibraryTypeID", "group___library_management.html#ga6a8ab3fe3c9085e5d540b073979bd0f2", null ],
+    [ "ACAPI_Element_GetDescriptors", "group___element.html#ga22bfea047c334f90a6b768b69d139e85", null ],
+    [ "ACAPI_LibraryManagement_AddLibraries", "group___library_management.html#ga5d17dc528a5c79892bb23d7b2de245d5", null ],
+    [ "ACAPI_LibraryManagement_ChangeGDLDate", "group___library_management.html#gae5c352f787863f81cf280f4df2b45943", null ],
+    [ "ACAPI_LibraryManagement_CheckLibraries", "group___library_management.html#ga08dd5601179bde0afddce685ef0d99ea", null ],
+    [ "ACAPI_LibraryManagement_CopyFilesIntoLibrary", "group___library_management.html#gad4ab2049d858c1a0760ee46c0de08537", null ],
+    [ "ACAPI_LibraryManagement_CreateCopyOfGdlUserGlobalsHandle", "group___library_management.html#gae77bed07dae6039f582d9a7a7936541f", null ],
+    [ "ACAPI_LibraryManagement_CreateFolderInLibrary", "group___library_management.html#ga23b7522cb137543c91c68b287550e55e", null ],
+    [ "ACAPI_LibraryManagement_DeleteEmbeddedLibItem", "group___library_management.html#gaae77d7f3024a16ddf38d08c4c6abdf4f", null ],
+    [ "ACAPI_LibraryManagement_DeleteEmbeddedLibItems", "group___library_management.html#ga835a5a55775164e1c6dbe5c9048facd7", null ],
+    [ "ACAPI_LibraryManagement_DestroyCopyOfGdlUserGlobalsHandle", "group___library_management.html#ga887d82958d74ce0ea64f92a8b8de5f12", null ],
+    [ "ACAPI_LibraryManagement_GetGDLDate", "group___library_management.html#ga5f289b62812140ebf0dac9a241ad6a3b", null ],
+    [ "ACAPI_LibraryManagement_GetLibPartOrigLocation", "group___library_management.html#ga5359502063a37d29a28112c558cc0fc1", null ],
+    [ "ACAPI_LibraryManagement_GetLibraries", "group___library_management.html#ga4f8e0bdf30dfec8f7ead72debaa42b6d", null ],
+    [ "ACAPI_LibraryManagement_InterpretGDLScript3D", "group___library_management.html#ga5fb354af941f090e39db73e3e9db79b8", null ],
+    [ "ACAPI_LibraryManagement_NewLibDial", "group___library_management.html#ga28077d804107e49b547b2c280444d2f5", null ],
+    [ "ACAPI_LibraryManagement_OpenLibraryPart", "group___library_management.html#gafdb449d4173ef806d24474f84f4103b1", null ],
+    [ "ACAPI_LibraryManagement_OverwriteLibPart", "group___library_management.html#ga85244ac5fecf6a3742f49e129acbb408", null ],
+    [ "ACAPI_LibraryManagement_RunGDLParScript", "group___library_management.html#ga2b6c74f5b49d6ecd34f60f522183d23c", null ],
+    [ "ACAPI_LibraryManagement_SetLibraries", "group___library_management.html#ga65b5e0bd522adf66b9b12625398a54b6", null ],
+    [ "ACAPI_LibraryManagement_UsableGDLString", "group___library_management.html#gaac29e64de381b18b618eef9d7ad5927e", null ],
+    [ "ACAPI_LibraryPart_RegisterSubtype", "group___toolbox.html#ga4018fd7d8bad004aa6321ad6c75d305f", null ],
+    [ "ACAPI_ProjectOperation_ReloadLibraries", "group___project_operation.html#ga9012e38fc2a6551ca0bed72d9ff94cfb", null ]
+];
